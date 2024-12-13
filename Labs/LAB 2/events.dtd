@@ -1,0 +1,57 @@
+<!ELEMENT events (organization, event+)>
+  <!ELEMENT organization (organizationName, organizationLogo, website?, socialLinks*)>
+  <!ELEMENT organizationName (#PCDATA)>
+  <!ELEMENT organizationLogo EMPTY>
+  <!ATTLIST organizationLogo src CDATA #REQUIRED> 
+  <!ELEMENT website (#PCDATA)>
+  <!ELEMENT socialLinks (#PCDATA)>
+  
+  <!ELEMENT event (eventName, Date, hosts, participants, resources, feedback, hashtags* )>
+  <!ATTLIST event eventID ID #REQUIRED>
+
+  <!ELEMENT eventName (#PCDATA)>
+  <!ELEMENT Date EMPTY>
+  <!ATTLIST Date start CDATA #REQUIRED end CDATA #REQUIRED> 
+
+  <!ELEMENT hosts (host+)>
+  <!ELEMENT host (hostName,contactInfo)>
+  <!ATTLIST host hostID ID #REQUIRED>
+
+  <!ELEMENT hostName (firstName,lastName)>
+  <!ELEMENT firstName (#PCDATA)>
+  <!ELEMENT lastName (#PCDATA)>
+
+  <!ELEMENT contactInfo (phone,email)>
+  <!ELEMENT phone (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+
+  <!ELEMENT participants (participant+)>
+  <!ELEMENT participant (pname,role,contact)>
+    <!ELEMENT pname (fName,lName)>
+      <!ELEMENT fName (#PCDATA)>
+      <!ELEMENT lName (#PCDATA)>
+
+    <!ELEMENT role (attendee,speaker,sponsor)>
+    <!ELEMENT attendee (#PCDATA)>   
+    <!ELEMENT speaker (#PCDATA)>   
+    <!ELEMENT sponsor (#PCDATA)>  
+    
+    <!ELEMENT contact (pphone,pemail)>
+      <!ELEMENT pphone (#PCDATA)>
+      <!ELEMENT pemail (#PCDATA)>
+
+  <!ELEMENT resources (venue,equipment*,services?)>
+    <!ELEMENT venue (location,capacity)>
+      <!ELEMENT location (#PCDATA)>
+      <!ELEMENT capacity (#PCDATA)>
+    <!ELEMENT equipment (#PCDATA)> 
+    <!ELEMENT services (details)> 
+      <!ELEMENT details (#PCDATA)>
+
+  <!ELEMENT feedback (comment)>
+  <!ATTLIST feedback feedbackID ID #REQUIRED>
+  <!ELEMENT comment (#PCDATA)>
+  
+  <!ELEMENT hashtags (#PCDATA)>
+
+  

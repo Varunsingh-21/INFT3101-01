@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE events SYSTEM "events.dtd">
+<events>
+<organization>
+    <organizationName>StarkInternational</organizationName>
+    <organizationLogo src="logo.png"></organizationLogo>
+    <website>https://www.marvel.com/</website>
+    <socialLinks>https://www.instagram.com/marvel/</socialLinks>
+</organization>
+
+<event eventID="EV101">
+    <eventName>Thanks Giving</eventName>
+    <Date start="28-9-2024" end="30-9-2024"></Date>
+    <hosts>
+        <host hostID="H101">
+            <hostName>
+                <firstName>Varun</firstName>
+                <lastName>Singh</lastName>
+            </hostName>
+            <contactInfo>
+                <phone>+1 6478964257</phone>
+                <email>getfullamrks@gmail.com</email>
+            </contactInfo>
+        </host>
+    </hosts>
+
+    <participants>
+        <participant>
+            <pname>
+                <fName>Drashya</fName>
+                <lName>Patel</lName>
+            </pname>
+
+            <role>
+                <attendee>attendee 1</attendee>
+                <speaker>speaker 1</speaker>
+                <sponsor>TESLA</sponsor>
+            </role>
+            <contact>
+                <pphone>+1 6372891023</pphone>
+                <pemail>yas@gmail.com</pemail>
+            </contact>
+        </participant>
+    </participants>
+    <resources>
+        <venue>
+            <location>CN tower</location>
+            <capacity>80</capacity>
+        </venue>
+        <equipment>Cameras</equipment>
+        <services>
+            <details>drinks and refreshments</details>
+        </services>
+    </resources>
+    <feedback feedbackID="f101">
+        <comment>Great event, Amazing management</comment>
+    </feedback>
+    <hashtags>#coolparty #weekend #enjoy #thansgiving</hashtags>
+
+</event>
+
+
+<event eventID="EV102">
+    <eventName>Bachlor's Party</eventName>
+    <Date start="29-9-2024" end="1-10-2024"></Date>
+    <hosts>
+        <host hostID="H102">
+            <hostName>
+                <firstName>Varun</firstName>
+                <lastName>Singh</lastName>
+            </hostName>
+            <contactInfo>
+                <phone>+1 6478964257</phone>
+                <email>getfullamrks@gmail.com</email>
+            </contactInfo>
+        </host>
+    </hosts>
+
+    <participants>
+        <participant>
+            <pname>
+                <fName>Drashya</fName>
+                <lName>Patel</lName>
+            </pname>
+
+            <role>
+                <attendee>attendee 1</attendee>
+                <speaker>speaker 1</speaker>
+                <sponsor>TESLA</sponsor>
+            </role>
+            <contact>
+                <pphone>+1 6372891023</pphone>
+                <pemail>yas@gmail.com</pemail>
+            </contact>
+        </participant>
+    </participants>
+    <resources>
+        <venue>
+            <location>CN tower</location>
+            <capacity>80</capacity>
+        </venue>
+        <equipment>Cameras</equipment>
+        <services>
+            <details>drinks and refreshments</details>
+        </services>
+    </resources>
+    <feedback feedbackID="f102">
+        <comment>Great event, Amazing management</comment>
+    </feedback>
+    <hashtags>#coolparty #weekend #enjoy #bachlorparty</hashtags>
+
+</event>
+
+
+
+</events>

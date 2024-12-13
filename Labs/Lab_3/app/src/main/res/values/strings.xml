@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab_3</string>
+
+
+    <string-array name="spinner_items">
+        <item>Justin Trudeau</item>
+        <item>Narendra Modi</item>
+        <item>Kim Jong Un</item>
+        <item>Mr. bean</item>
+    </string-array>
+
+</resources>
