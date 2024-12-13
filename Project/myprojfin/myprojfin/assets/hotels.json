@@ -1,0 +1,172 @@
+{
+  "AKL": [
+    {
+      "name": "Auckland City Hotel",
+      "price_per_day": 150,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "SkyCity Hotel",
+      "price_per_day": 200,
+      "pool": true,
+      "pet_friendly": true
+    },
+    {
+      "name": "Heritage Auckland",
+      "price_per_day": 180,
+      "pool": true,
+      "pet_friendly": true
+    }
+  ],
+  "SIN": [
+    {
+      "name": "Marina Bay Sands",
+      "price_per_day": 300,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "Raffles Hotel",
+      "price_per_day": 350,
+      "pool": true,
+      "pet_friendly": true
+    }
+  ],
+  "MEL": [
+    {
+      "name": "Crown Metropol Melbourne",
+      "price_per_day": 250,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "Park Hyatt Melbourne",
+      "price_per_day": 300,
+      "pool": true,
+      "pet_friendly": true
+    },
+    {
+      "name": "QT Melbourne",
+      "price_per_day": 220,
+      "pool": false,
+      "pet_friendly": true
+    }
+  ],
+  "CHC": [
+    {
+      "name": "Novotel Christchurch",
+      "price_per_day": 180,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "Sudima Christchurch City",
+      "price_per_day": 220,
+      "pool": false,
+      "pet_friendly": true
+    }
+  ],
+  "LHR": [
+    {
+      "name": "The Ritz London",
+      "price_per_day": 400,
+      "pool": true,
+      "pet_friendly": false
+    }
+  ],
+  "DXB": [
+    {
+      "name": "Atlantis The Palm",
+      "price_per_day": 400,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "Burj Al Arab",
+      "price_per_day": 1000,
+      "pool": true,
+      "pet_friendly": true
+    },
+    {
+      "name": "Jumeirah Beach Hotel",
+      "price_per_day": 300,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "Address Downtown",
+      "price_per_day": 350,
+      "pool": true,
+      "pet_friendly": true
+    }
+  ],
+  "HKG": [
+    {
+      "name": "The Peninsula Hong Kong",
+      "price_per_day": 300,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "Mandarin Oriental Hong Kong",
+      "price_per_day": 350,
+      "pool": true,
+      "pet_friendly": true
+    }
+  ],
+  "SYD": [
+    {
+      "name": "Shangri-La Hotel",
+      "price_per_day": 250,
+      "pool": true,
+      "pet_friendly": true
+    },
+    {
+      "name": "Sydney Harbour Marriott",
+      "price_per_day": 220,
+      "pool": true,
+      "pet_friendly": false
+    },
+    {
+      "name": "The Langham Sydney",
+      "price_per_day": 300,
+      "pool": true,
+      "pet_friendly": true
+    }
+  ],
+  "KUL": [
+    {
+      "name": "Mandarin Oriental Kuala Lumpur",
+      "price_per_day": 200,
+      "pool": true,
+      "pet_friendly": false
+    }
+  ],
+  "YYZ": [
+    {
+      "name": "Fairmont Royal York",
+      "price_per_day": 350,
+      "pool": true,
+      "pet_friendly": true
+    },
+    {
+      "name": "Hilton Toronto",
+      "price_per_day": 250,
+      "pool": false,
+      "pet_friendly": true
+    },
+    {
+      "name": "The Ritz-Carlton Toronto",
+      "price_per_day": 400,
+      "pool": true,
+      "pet_friendly": true
+    },
+    {
+      "name": "Delta Hotels Toronto",
+      "price_per_day": 300,
+      "pool": true,
+      "pet_friendly": false
+    }
+  ]
+}
